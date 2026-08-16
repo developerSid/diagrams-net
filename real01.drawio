@@ -34,6 +34,11 @@
         <mxCell id="UNtJCrSBGR4Dej3xDRIO-7" edge="1" parent="1" source="UNtJCrSBGR4Dej3xDRIO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="UNtJCrSBGR4Dej3xDRIO-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-42" connectable="0" parent="UNtJCrSBGR4Dej3xDRIO-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 Failed Recieves&lt;div&gt;triggers push to DLQ&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0352" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UNtJCrSBGR4Dej3xDRIO-12" edge="1" parent="1" source="UNtJCrSBGR4Dej3xDRIO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UNtJCrSBGR4Dej3xDRIO-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -106,6 +111,49 @@
         </mxCell>
         <mxCell id="UNtJCrSBGR4Dej3xDRIO-26" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch_2;" value="Cloudwatch" vertex="1">
           <mxGeometry height="140" width="140" x="450" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-30" edge="1" parent="1" source="UNtJCrSBGR4Dej3xDRIO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.99;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" target="UNtJCrSBGR4Dej3xDRIO-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="224.06" />
+              <mxPoint x="1060" y="636.29" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-31" connectable="0" parent="UNtJCrSBGR4Dej3xDRIO-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Log Failures with reason" vertex="1">
+          <mxGeometry relative="1" x="-0.2248" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-32" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" value="Invoice Failure&lt;div&gt;Mitigation App&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="50" x="1130" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-34" edge="1" parent="1" source="UNtJCrSBGR4Dej3xDRIO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UNtJCrSBGR4Dej3xDRIO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-33" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="1430" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-36" edge="1" parent="1" source="UNtJCrSBGR4Dej3xDRIO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UNtJCrSBGR4Dej3xDRIO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-35" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="AP Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="1650" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-39" edge="1" parent="1" source="UNtJCrSBGR4Dej3xDRIO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" target="UNtJCrSBGR4Dej3xDRIO-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155.06" y="637.35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-40" connectable="0" parent="UNtJCrSBGR4Dej3xDRIO-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Read Failures" vertex="1">
+          <mxGeometry relative="1" x="-0.3695" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNtJCrSBGR4Dej3xDRIO-41" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Fixer&lt;/h1&gt;&lt;div&gt;1. Look at failures&lt;/div&gt;&lt;div&gt;2. Resubmit&lt;/div&gt;&lt;div&gt;3. Repair&lt;/div&gt;&lt;div&gt;4. Manual Entry&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="1700" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
